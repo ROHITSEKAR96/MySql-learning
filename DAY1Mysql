@@ -1,0 +1,54 @@
+																		DAY 1 OF MySQL
+what is database?
+   A database is a collection of data's which are arranged in a proper manner to retrieve,update and manipulate .
+what is RDBMS?
+        Stands for Relational database management syestem
+		Basic for any relational databases like Mysql,oracle,windows 
+what is table?
+       In RDBMS data is stored in the form of database objects these objects are called tables
+		tables contain multiple columns and rows with field names
++----+----------+-----+-----------+----------+
+| ID | NAME     | AGE | ADDRESS   | SALARY   |
++----+----------+-----+-----------+----------+
+|  1 | Ramesh   |  32 | Ahmedabad |  2000.00 |
+|  2 | Khilan   |  25 | Delhi     |  1500.00 |
+|  3 | kaushik  |  23 | Kota      |  2000.00 |
+|  4 | Chaitali |  25 | Mumbai    |  6500.00 |
+|  5 | Hardik   |  27 | Bhopal    |  8500.00 |
+|  6 | Komal    |  22 | MP        |  4500.00 |
+|  7 | Muffy    |  24 | Indore    | 10000.00 |
++----+----------+-----+-----------+----------+
+here id,name,age address salary are fields
+
+a record is data stored in the table in a rows
+NULL VALUE:
+	a field with blank record is called NULL VALUE where no statemetn is present
+	0 is diff than blank
+	
+STRUCTURED QUERY LANGUAGE
+   SQL is used for relational databases
+	SQL support ACID propertie
+data types
+   numeric datatypes
+		-bigint,smallint,tinyint,int,bit,decimal,binary,numeric,money,smallmoney,float,real
+	date and time datatypes:
+		datetime,smalldatetime,date,time
+	character string datatypes
+          char,varchar,varchar(max),text
+    
+CREATE DATABASE AMAZON;
+SHOW DATABASES;
+DROP DATABASE AMAZON;
+CREATE DATABASE AMAZON;
+USE AMAZON;
+CREATE TABLE CUSTOMERS(
+ID INT NOT NULL,
+NAME VARCHAR(30) NOT NULL,
+AGE INT NOT NULL,
+ADDRESS CHAR(30) NOT NULL,
+PRIMARY KEY (ID)); 
+DESC CUSTOMERS;
+CREATE TABLE ROHIT(NAME VARCHAR(10));
+DROP TABLE ROHIT;
+
+
