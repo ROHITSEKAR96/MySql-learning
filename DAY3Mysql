@@ -1,0 +1,46 @@
+DAY 3 DBMS REVISIT
+
+ADVANTAGES OF DBMS 
+	-no redudancy
+	-memory management
+	-consitency in data
+	-easy access
+	-security
+	-concurrency
+ 
+ ARCHITECTURE IN DBMS:
+ 
+	dbms possess external level,conceptual level,physical level
+	external level can be used by user
+	conceptual level visible to users but unaware of the storage
+	physical level not visible and cant able to see the storage
+	
+ -TWO TIER ARCHITECTURE
+	same as client and server model but as an API to connect the client with the server side using api like odbc,jdbc
+	Open Database Connectivity (ODBC ),java database connectivity(JDBC)
+	
+ -THREE TIER ARCHITECTURE
+    same as two tier architecture but three tier has a extra layer knows as application layer or GUI layer to make the computation more user friendly
+
+data's in the database is stored in form of objects 
+indexing happens so fast in DBMS since they are stored in the form of objects.
+
+DATA ABSTRACTION 
+-data abstraction is achieved by physical,logical,view level
+
+DATABASE OBJECT:
+	table,view,synonym,index,sequence
+	
+ENTITY:
+		an entity is a object with physical features like a employee,person,car
+		entity is a onject of entity type set of all entity is called entity set
+ATTRIBUTES:
+        properties which define entity type like roll no,subject denotes student entity
+KEY_ATTRIBUTE:
+        attribute which uniquely identifies an entity set ex:ROLL NO
+COMPOSITE ATTRIBUTE
+        A attribute with with comprises many attributes like address attribute which has door no,street etc
+MULTIVALUED ATTRIBUTE:
+			An attribute consisiting more than one value student attribute has two to three phone numbers
+DERVIED ATTRIBUTE:
+				attributes that are dervied from other attributes
